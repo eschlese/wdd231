@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ethan Schlese | WDD 231</title>
-    <meta name="description" content="This is the homepage for Ethan Schlese in BYU-I's web development course WDD 231.">
+    <meta name="description"
+        content="This is the homepage for Ethan Schlese in BYU-I's web development course WDD 231.">
     <meta name="author" content="Ethan Schlese">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -13,6 +19,7 @@
     <script src="scripts/get-dates.js" defer></script>
 
 </head>
+
 <body>
     <header>
         <img src="images/snow.svg" alt="logo" width="16" height="16">
@@ -34,26 +41,35 @@
     </nav>
     <main>
         <h1>Home</h1>
-        <section>
-            <h2>About Me</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam suscipit, placeat rem ipsa laborum dignissimos amet eius. Similique blanditiis rerum necessitatibus officiis earum? Tempora similique asperiores eum magni quis maxime.</p>
-        </section>
-        <section>
-            <h2>Student Photo</h2>
-            <img src="images/portrait.webp" alt="Portrait of Ethan Schlese">
-        </section>
-        <section>
+        <div class="large-grid">
+            <section id="about-me">
+                <h2>About Me</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam suscipit, placeat rem ipsa
+                    laborum
+                    dignissimos amet eius. Similique blanditiis rerum necessitatibus officiis earum? Tempora similique
+                    asperiores eum magni quis maxime.</p>
+            </section>
+            <section id="student-img">
+                <h2>Student Photo</h2>
+                <img src="images/portrait.webp" alt="Portrait of Ethan Schlese">
+            </section>
+        </div>
+        <section id="courses">
             <h2>Web Certificate Courses</h2>
         </section>
     </main>
     <footer>
         <div class="social">
-            <a href="https://www.linkedin.com/in/eschlese" target="_blank"><img src="images/linkedin.svg" alt="linkedin" width="16" height="16"></a>
-            <a href="https://github.com/eschlese/wdd231" target="_blank"><img src="images/github.svg" alt="github" width="16" height="16"></a>
-            <a href="https://www.instagram.com/eschlese/" target="_blank"><img src="images/instagram.svg" alt="instagram" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/eschlese" target="_blank"><img src="images/linkedin.svg" alt="linkedin"
+                    width="16" height="16"></a>
+            <a href="https://github.com/eschlese/wdd231" target="_blank"><img src="images/github.svg" alt="github"
+                    width="16" height="16"></a>
+            <a href="https://www.instagram.com/eschlese/" target="_blank"><img src="images/instagram.svg"
+                    alt="instagram" width="16" height="16"></a>
         </div>
         <p>&copy;<span id="currentYear"></span> | Ethan Schlese | Canada</p>
         <p id="lastModified"></p>
     </footer>
 </body>
+
 </html>
