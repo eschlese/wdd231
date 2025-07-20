@@ -28,16 +28,26 @@
         border: none;
     }
 
-    .large-grid {
+    .largeGrid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    #about-me {
+    #aboutMe {
         grid-column: 1 / 3;
     }
 
-    #student-img {
+    #studentImg {
         grid-column: 3;
+    }
+
+    #courses ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    #courses ul li {
+        width: 29%;
     }
 }

@@ -1,3 +1,9 @@
+const allCoursesButton = document.querySelector("#allCourses");
+const wddCoursesButton = document.querySelector("#wddCourses");
+const cseCoursesButton = document.querySelector("#cseCourses");
+const courseList = document.querySelector("#courseList");
+const totalCredits = document.querySelector("#totalCredits");
+
 const courses = [
     {
         subject: 'CSE',
@@ -76,4 +82,39 @@ const courses = [
         ],
         completed: false
     }
-]
+];
+
+function populateList(courses) {
+    courseList.innerHTML = "";
+    courses.forEach(course => {
+        let listItem = document.createElement("li");
+        listItem.textContent = `${course.subject} ${course.number}`;
+        if (course.completed) {
+            listItem.classList.add("completed")
+        };
+        courseList.appendChild(listItem);
+    });
+};
+
+function displayTotalCredits(courses) {
+    credits = courses.reduce((accumulator, course) => accumulator + course.credits, 0);
+    totalCredits.textContent = `The total credits for courses listed above is ${credits}`;
+}
+
+allCoursesButton.addEventListener("click", () => {
+    populateList(courses);
+    displayTotalCredits(courses);
+});
+
+wddCoursesButton.addEventListener("click", () => {
+    populateList(courses.filter(course => course.subject == "WDD"));
+    displayTotalCredits(courses.filter(course => course.subject == "WDD"));
+});
+
+cseCoursesButton.addEventListener("click", () => {
+    populateList(courses.filter(course => course.subject == "CSE"));
+    displayTotalCredits(courses.filter(course => course.subject == "CSE"));
+});
+
+populateList(courses);
+displayTotalCredits(courses);

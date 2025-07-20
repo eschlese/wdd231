@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/get-dates.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
 
 </head>
 
@@ -41,21 +42,26 @@
     </nav>
     <main>
         <h1>Home</h1>
-        <div class="large-grid">
-            <section id="about-me">
+        <div class="largeGrid">
+            <section id="aboutMe">
                 <h2>About Me</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam suscipit, placeat rem ipsa
                     laborum
                     dignissimos amet eius. Similique blanditiis rerum necessitatibus officiis earum? Tempora similique
                     asperiores eum magni quis maxime.</p>
             </section>
-            <section id="student-img">
+            <section id="studentImg">
                 <h2>Student Photo</h2>
                 <img src="images/portrait.webp" alt="Portrait of Ethan Schlese">
             </section>
         </div>
         <section id="courses">
             <h2>Web Certificate Courses</h2>
+            <button id="allCourses" class="courseButton">All</button>
+            <button id="cseCourses" class="courseButton">CSE</button>
+            <button id="wddCourses" class="courseButton">WDD</button>
+            <ul id="courseList"></ul>
+            <p id="totalCredits"></p>
         </section>
     </main>
     <footer>

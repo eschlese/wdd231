@@ -75,6 +75,7 @@ footer {
     background-color: var(--secondary-colour);
     padding: 1rem 18px;
     text-align: center;
+    color: var(--primary-colour);
 }
 
 .social {
@@ -109,11 +110,11 @@ h1 {
 section {
     margin: 10px;
     border: var(--secondary-colour) solid 1px;
+    color: var(--primary-colour);
 }
 
 section h2 {
     text-align: center;
-    color: var(--primary-colour);
     background-color: var(--secondary-colour);
     margin: 0;
 }
@@ -126,4 +127,43 @@ section img {
     display: block;
     width: 90%;
     margin: auto;
+}
+#courses {
+    text-align: center;
+}
+
+#courses button {
+    width: 32%;
+    height: 44px;
+    margin-top: 5px;
+    color: var(--primary-colour);
+    background-color: var(--secondary-colour);
+    border-radius: 5px;
+    border: var(--primary-colour) solid 2px;
+}
+
+#courses button:hover {
+    background-color: var(--accent-colour);
+    cursor: pointer;
+}
+
+#courses ul {
+    list-style-type: none;
+    margin: 0.5rem;
+    padding: 5px;
+}
+
+#courses ul li {
+    background-color: var(--secondary-colour);
+    border: var(--primary-colour) solid 1px;
+    margin: 5px;
+    padding: 0.5rem;
+}
+
+#courses ul li.completed {
+    background-color: var(--accent-colour);
+}
+
+#courses ul li.completed::after {
+    content: " \02713";
 }
