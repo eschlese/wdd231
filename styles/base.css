@@ -4,6 +4,10 @@
     --accent-colour: #F4D35E;
 }
 
+header, nav, main, footer {
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
     display: grid;
     grid-template-columns: 30px auto 44px;
