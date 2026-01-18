@@ -1,0 +1,54 @@
+/* Colours */
+:root {
+    --primary-colour: #213C51;
+    --secondary-colour: #6594B1;
+    --primary-highlight: #DDAED3;
+    --secondary-highlight: #EEEEEE;
+}
+
+/* Universal */
+* {
+    font-family: 'Courier Prime', monospace;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 5px 0 5px 0;
+    border-bottom: solid 1px var(--secondary-highlight);
+    font-size: 1.2rem;
+    color: var(--primary-colour);
+    font-weight: 400;
+}
+
+/* Main */
+section {
+    margin: 1rem 10px;
+    color: var(--primary-colour);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: var(--secondary-colour) solid 3px;
+    border-radius: 5px;
+}
+
+section h2 {
+    text-align: center;
+    border: var(--secondary-colour) solid 1px;
+    border-left: var(--secondary-colour) solid 6px;
+    border-right: var(--secondary-colour) solid 6px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+section p {
+    margin: 5px;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
