@@ -1,0 +1,60 @@
+{
+    "companies": [
+        {
+            "name": "In A Hurry Moving Company",
+            "address": "123 Sesame Street, Morinville",
+            "phone": "123-456-7890",
+            "website": "support@inahurry.ca",
+            "image": "./images/morinville-sign.jpg",
+            "member_lv": 1
+        },
+        {
+            "name": "Dan's Plumbing",
+            "address": "5 Plumbers St, Morinville",
+            "phone": "123-456-7890",
+            "website": "support@dansplumbing.ca",
+            "image": "./images/morinville-sign.jpg",
+            "member_lv": 1
+        },
+        {
+            "name": "Eggcellent Produce",
+            "address": "45 Farm Way, Morinville",
+            "phone": "123-456-7890",
+            "website": "support@eggcellent.ca",
+            "image": "./images/morinville-sign.jpg",
+            "member_lv": 2
+        },
+        {
+            "name": "Cutting Edge Woodwork",
+            "address": "9 John Doe Ave, Morinville",
+            "phone": "123-456-7890",
+            "website": "support@cuttingedgewood.ca",
+            "image": "./images/morinville-sign.jpg",
+            "member_lv": 1
+        },
+        {
+            "name": "Stan & Fran Accounting",
+            "address": "13 Suite 4 Hemingway Dr, Morinville",
+            "phone": "123-456-7890",
+            "website": "support@stanfranaccounting.ca",
+            "image": "./images/morinville-sign.jpg",
+            "member_lv": 3
+        },
+        {
+            "name": "Mr. Fixit IT Services",
+            "address": "23 Hollywood Ave, Morinville",
+            "phone": "123-456-7890",
+            "website": "support@fixitservices.ca",
+            "image": "./images/morinville-sign.jpg",
+            "member_lv": 2
+        },
+        {
+            "name": "Greenthumb Landscaping",
+            "address": "874 Palisade Way, Morinville",
+            "phone": "123-456-7890",
+            "website": "support@greenthumbland.ca",
+            "image": "./images/morinville-sign.jpg",
+            "member_lv": 1
+        }
+    ]
+}
