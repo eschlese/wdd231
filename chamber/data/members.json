@@ -5,7 +5,7 @@
             "address": "123 Sesame Street, Morinville",
             "phone": "123-456-7890",
             "website": "support@inahurry.ca",
-            "image": "./images/moving-logo.webp",
+            "image": "./images/moving-logo.jpg",
             "member_lv": 1
         },
         {
@@ -45,7 +45,7 @@
             "address": "23 Hollywood Ave, Morinville",
             "phone": "123-456-7890",
             "website": "support@fixitservices.ca",
-            "image": "./images/it-logo.webp",
+            "image": "./images/it-logo.jpg",
             "member_lv": 2
         },
         {
@@ -53,7 +53,7 @@
             "address": "874 Palisade Way, Morinville",
             "phone": "123-456-7890",
             "website": "support@greenthumbland.ca",
-            "image": "./images/landscaping-logo.webp",
+            "image": "./images/landscaping-logo.jpg",
             "member_lv": 1
         }
     ]
