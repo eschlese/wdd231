@@ -22,7 +22,7 @@ h1 {
 header {
     display: grid;
     grid-template-columns: 60px auto 50px;
-    padding: 5px 0 5px 10px;
+    padding: 5px 0 5px 0px;
     border-bottom: solid 1px var(--secondary-colour);
     column-gap: 8px;
 }
@@ -101,7 +101,7 @@ header span {
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    margin: 10px;
+    padding: 10px;
 }
 
 .grid section {
@@ -111,7 +111,7 @@ header span {
     align-items: center;
     border: var(--primary-colour) solid 1px;
     border-radius: 5px;
-    box-shadow: -5px 10px 10px var(--text-colour);
+    box-shadow: -5px 5px 10px var(--text-colour);
 }
 
 .grid section a {
@@ -120,7 +120,7 @@ header span {
 
 .grid img {
     display: block;
-    width: 90%;
+    width: 200px;
     height: auto;
 }
 
@@ -129,6 +129,7 @@ header span {
     display: grid;
     grid-template-columns: 2fr 2fr 1fr 1fr 1fr;
     font-size: 0.5rem;
+    padding: 0 5px;
 }
 
 .list section p {
