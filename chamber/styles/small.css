@@ -90,23 +90,57 @@ header span {
     border-bottom: var(--primary-colour) solid 3px;
 }
 
+/* Menu */
+.menu {
+    margin: 1rem auto;
+    text-align: center;
+}
+
 /* Directory Cards */
 .grid {
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin: 10px;
 }
 
-.card {
+.grid section {
     display: flex;
     flex-direction: column;
     padding: 5px 10px;
     align-items: center;
+    border: var(--primary-colour) solid 1px;
+    border-radius: 5px;
+    box-shadow: -5px 10px 10px var(--text-colour);
 }
 
-.card img {
+.grid section a {
+    color: var(--primary-colour);
+}
+
+.grid img {
     display: block;
     width: 90%;
+    height: auto;
+}
+
+/* Directory List */
+.list section {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr 1fr;
+    font-size: 0.5rem;
+}
+
+.list section p {
+    padding: 5px;
+}
+
+.list section a {
+    color: var(--primary-colour);
+}
+
+.list section img {
+    display: none;
 }
 
 /* Footer */

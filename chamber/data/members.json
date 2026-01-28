@@ -5,7 +5,7 @@
             "address": "123 Sesame Street, Morinville",
             "phone": "123-456-7890",
             "website": "support@inahurry.ca",
-            "image": "./images/morinville-sign.jpg",
+            "image": "https://img.freepik.com/premium-vector/delivery-truck-logo-delivery-truck-icon-cargo-moving-fast-delivery-logo-design-vector-illustration_150826-478.jpg?semt=ais_user_personalization&w=740&q=80",
             "member_lv": 1
         },
         {
@@ -13,7 +13,7 @@
             "address": "5 Plumbers St, Morinville",
             "phone": "123-456-7890",
             "website": "support@dansplumbing.ca",
-            "image": "./images/morinville-sign.jpg",
+            "image": "https://media.istockphoto.com/id/1624217098/vector/plumbing-logo-design-illustration.jpg?s=612x612&w=0&k=20&c=Io6DqP2leLF2D_ZJLaNWWQI4e1ddDYHA9IKVYbqePvE=",
             "member_lv": 1
         },
         {
@@ -21,7 +21,7 @@
             "address": "45 Farm Way, Morinville",
             "phone": "123-456-7890",
             "website": "support@eggcellent.ca",
-            "image": "./images/morinville-sign.jpg",
+            "image": "https://static.vecteezy.com/system/resources/thumbnails/043/215/267/small/a-logo-design-for-a-healthy-food-company-featuring-green-harvest-fruits-and-vegetables-healthy-nature-food-logo-designs-concept-free-vector.jpg",
             "member_lv": 2
         },
         {
@@ -29,7 +29,7 @@
             "address": "9 John Doe Ave, Morinville",
             "phone": "123-456-7890",
             "website": "support@cuttingedgewood.ca",
-            "image": "./images/morinville-sign.jpg",
+            "image": "https://static.vecteezy.com/system/resources/thumbnails/010/073/497/small/woodwork-and-carpentry-logo-design-template-vector.jpg",
             "member_lv": 1
         },
         {
@@ -37,7 +37,7 @@
             "address": "13 Suite 4 Hemingway Dr, Morinville",
             "phone": "123-456-7890",
             "website": "support@stanfranaccounting.ca",
-            "image": "./images/morinville-sign.jpg",
+            "image": "https://static.vecteezy.com/system/resources/thumbnails/051/889/882/small/accounting-logo-design-template-vector.jpg",
             "member_lv": 3
         },
         {
@@ -45,7 +45,7 @@
             "address": "23 Hollywood Ave, Morinville",
             "phone": "123-456-7890",
             "website": "support@fixitservices.ca",
-            "image": "./images/morinville-sign.jpg",
+            "image": "https://www.echolon.de/fileadmin/_processed_/3/5/csm_EcholoN-Blog-what-is-an-it-service-it-services-for-companies-definition_d0b44232a0.jpg",
             "member_lv": 2
         },
         {
@@ -53,7 +53,7 @@
             "address": "874 Palisade Way, Morinville",
             "phone": "123-456-7890",
             "website": "support@greenthumbland.ca",
-            "image": "./images/morinville-sign.jpg",
+            "image": "https://www.shutterstock.com/image-vector/professional-landcare-logo-design-landscaping-260nw-2567785271.jpg",
             "member_lv": 1
         }
     ]

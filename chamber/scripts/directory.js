@@ -1,4 +1,16 @@
 const cards = document.querySelector('#cards');
+const gridbtn = document.querySelector("#grid");
+const listbtn = document.querySelector("#list");
+
+gridbtn.addEventListener("click", () => {
+    cards.classList.add("grid");
+    cards.classList.remove("list");
+});
+
+listbtn.addEventListener("click", () => {
+    cards.classList.add("list");
+    cards.classList.remove("grid");
+});
 
 async function getCompanyData() {
     const response = await fetch("./data/members.json");
@@ -19,8 +31,8 @@ const displayCompanies = (companies) => {
         let member_lv = document.createElement("p")
 
         name.textContent = `${company.name}`;
-        address.textContent = `Address: ${company.address}`;
-        phone.textContent = `Phone Number: ${company.phone}`;
+        address.textContent = `${company.address}`;
+        phone.textContent = `${company.phone}`;
 
         url.href = `${company.url}`;
         url.textContent = "Website"
@@ -45,8 +57,6 @@ const displayCompanies = (companies) => {
         section.appendChild(url);
         section.appendChild(img);
         section.appendChild(member_lv);
-        
-        section.classList.add("card");
 
         cards.appendChild(section);
     });

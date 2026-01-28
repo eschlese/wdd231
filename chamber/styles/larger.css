@@ -30,6 +30,10 @@
         border: none;
     }
 
+    .list section {
+        font-size: 1rem;
+    }
+
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
