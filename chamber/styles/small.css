@@ -184,3 +184,66 @@ footer div p{
 .social a:hover {
     background-color: var(--primary-colour);
 }
+
+/* Form */
+
+.wf1 {
+    margin: 0.5rem;
+    padding: 1rem;
+    border: 5px solid var(--primary-colour);
+    border-radius: 20px;
+    background-color: var(--background-colour);
+}
+
+.wf1 fieldset {
+    border: none;
+}
+
+.wf1 label,
+.wf1 input,
+.wf1 textarea
+{
+    display: block;
+    border: none;
+}
+
+.wf1 label {
+    margin: 1rem 0;
+}
+
+.wf1 input {
+    height: 1.5rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 80%;
+}
+
+.wf1 textarea {
+    height: 5rem;
+    width: 80%;
+}
+
+.wf1 input[type="submit"] {
+    background-color: var(--secondary-colour);
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+    height: 2.5rem;
+    font-size: medium;
+}
+
+.wf1 input[type="submit"]:hover {
+    background-color: var(--background-colour);
+}
+
+.wf1 input:required,
+.wf1 textarea:required 
+{
+    border-left: solid 5px red;
+}
+
+.wf1 input:required:valid,
+.wf1 textarea:required:valid
+{
+    border-left: solid 5px var(--secondary-colour);
+}
