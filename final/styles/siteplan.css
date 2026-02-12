@@ -1,0 +1,40 @@
+:root {
+    --primary-colour: #FFC251;
+    --secondary-colour: #FFECCC;
+    --accent-colour: #476f3f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Funnel Display', sans-serif;
+}
+
+header, main, footer {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin: 1rem;
+    border-bottom: solid var(--accent-colour);
+}
+
+a {
+    display: block;
+    margin: 1rem;
+}
+
+h1 {
+    background-color: var(--primary-colour);
+    padding: 1rem;
+}
+
+p {
+    background-color: var(--secondary-colour);
+    border: transparent 1px;
+    border-radius: 5px;
+}
