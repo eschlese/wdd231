@@ -39,4 +39,27 @@
         grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
     }
+
+      /* Discover Grid */
+
+    .discoverGrid section {
+        grid-template-areas:
+        "image title"
+        "image address"
+        "desc desc"
+        "button button";
+    }
+
+    .discoverGrid section figure img:hover {
+        border-radius: 15px 150px;
+    }
+}
+
+@media only screen and (min-width: 64rem) {
+    /* Discover Grid */
+
+    .discoverGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }

@@ -247,3 +247,44 @@ footer div p{
 {
     border-left: solid 5px var(--secondary-colour);
 }
+
+/* Discover Cards */
+
+.discoverGrid section {
+    display: grid;
+    grid-template-areas:
+    "title"
+    "image"
+    "desc"
+    "address"
+    "button";
+    padding: 5px 10px;
+    border: var(--primary-colour) solid 1px;
+    border-radius: 5px;
+    box-shadow: -5px 5px 10px var(--text-colour);
+    margin: 1rem;
+}
+
+.discoverGrid section h2 {
+    grid-area: title;
+}
+
+.discoverGrid section figure {
+    grid-area: image;
+}
+
+.discoverGrid section figure img {
+    border-radius: 5px;
+}
+
+.discoverGrid section p {
+    grid-area: desc;
+}
+
+.discoverGrid section address {
+    grid-area: address;
+}
+
+.discoverGrid section button {
+    grid-area: button;
+}
