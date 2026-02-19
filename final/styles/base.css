@@ -140,6 +140,11 @@ article a:hover {
     background-color: var(--secondary-colour);
 }
 
+.weather {
+    margin-top: 1rem;
+    margin-left: auto;
+}
+
 /* FOOTER */
 
 footer {
