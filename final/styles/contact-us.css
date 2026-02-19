@@ -1,0 +1,100 @@
+:root {
+    --primary-colour: #FFC251;
+    --secondary-colour: #FFECCC;
+    --accent-colour: #476f3f;
+}
+
+.contact-list {
+    padding: 1rem;
+    list-style-type: none;
+    justify-self: center;
+}
+
+.contact-list li {
+    margin: 1rem;
+    background-color: var(--secondary-colour);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.contact-list a {
+    text-decoration: none;
+    color: var(--accent-colour);
+
+}
+
+.wf1 {
+    margin: 0.5rem;
+    padding: 1rem;
+    border: 5px solid var(--accent-colour);
+    border-radius: 20px;
+    background-color: var(--secondary-colour);
+}
+
+.wf1 fieldset {
+    border: none;
+}
+
+.wf1 legend {
+    font-weight: bold;
+    font-size: large;
+    border-bottom: 3px solid var(--accent-colour);
+}
+
+.wf1 label,
+.wf1 input,
+.wf1 textarea
+{
+    display: block;
+    border: none;
+}
+
+.wf1 label {
+    margin: 1rem 0;
+}
+
+.wf1 input {
+    height: 1.5rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 80%;
+}
+
+.wf1 textarea {
+    height: 5rem;
+    width: 80%;
+}
+
+.wf1 input[type="submit"] {
+    color: black;
+    background-color: var(--primary-colour);
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+    border: 2px solid var(--accent-colour);
+    height: 2.5rem;
+    font-size: medium;
+}
+
+.wf1 input[type="submit"]:hover {
+    background-color: var(--secondary-colour);
+}
+
+.wf1 input:required,
+.wf1 textarea:required 
+{
+    border-left: solid 5px red;
+}
+
+.wf1 input:required:valid,
+.wf1 textarea:required:valid
+{
+    border-left: solid 5px var(--accent-colour);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin: 0.5rem 0;
+    max-width: 600px;
+}

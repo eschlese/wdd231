@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Kelowna Longboard Alliance</title>
+    <meta name="description"
+        content="Welcome to the Kelowna Longboard Alliance homepage! This website is a place to learn more about longboarding in the Kelowna area.">
+    <meta name="author" content="Ethan Schlese">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="styles/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <meta property="og:title" content="Kelowna Longboard Alliance">
+    <meta property="og:description" content="Learn about the Kelowna Longboard Alliance and join our community!">
+    <meta property="og:image" content="images/community.webp">
+    <meta property="og:URL" content="https://eschlese.github.io/wdd231/final">
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <img src="images/kla-logo.webp" alt="Kelowna Longboard Alliance logo">
+            <h1>Kelowna Longboard Alliance</h1>
+        </div>
+        <button type="button" id="menu" aria-label="menu button"></button>
+        <nav>
+            <ul class="navigation">
+                <li>
+                    <a class="current" href="#">Home</a>
+                </li>
+                <li>
+                    <a href="contact-us.html">Contact Us</a>
+                </li>
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero1">
+            <h2>What is Longboarding?</h2>
+            <p>Longboarding is a sport with a variety of different disciplines, but they all have one thing in common: a
+                longboard! A longboard is like a skateboard, but is typically a little longer, with bigger softer
+                wheels, and with trucks designed more for turning rather than grinding rails. Longboards can be used to
+                cruise around town, race down hills, do cool slide tricks, and much more. Ultimately, no matter what you
+                do on the board, it's about creative expression and having a lot of fun! If you're looking for something
+                exciting that will challenge you physically, then longboarding is for you!</p>
+            <div class="block"></div>
+            <picture>
+                <source media="(min-width: 768px)" srcset="images/maryhill-large.webp">
+                <img src="images/maryhill.webp" alt="A longboarder tucking on their board through a corner.">
+            </picture>
+        </div>
+        <div class="hero2">
+            <h2>The KLA Community</h2>
+            <p>Here in Kelowna and the Okanagan area, we strive to maintain an inclusive, welcoming environment for the
+                new skater and experienced rider alike! We host regular meetups to ride together, and learn new skills,
+                including how to slide and stop on a longboard. At any meetup, you'll find a group of like-minded
+                individuals who are stoked to skate, stoked to help eachother learn to skate, and stoked to promote safe
+                skating! </p>
+            <picture>
+                <source media="(min-width: 768px)" srcset="images/community-large.webp">
+                <img src="images/community.webp" alt="A group photo of longboarders in halloween costumes."
+                    loading="lazy">
+            </picture>
+        </div>
+        <article>
+            <h3>Join Us!</h3>
+            <p>If you're looking to learn a new skill, want to dust off that old longboard in your garage, are seasoned
+                skater who just moved into town, or anything in-between, then this is the club for you! Contact us to
+                find out more and join our next meetup. We hope to see you soon!</p>
+            <a href="contact-us.html">Contact Us</a>
+        </article>
+        <article>
+            <h3>Current Weather in Kelowna</h3>
+            <p>Temp: <span id="current-temp"></span></p>
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption>Looks like a great day to skate!</figcaption>
+            </figure>
+        </article>
+    </main>
+    <footer>
+        <div class="page-info">
+            <p>&copy;<span id="currentYear"></span> | Ethan Schlese | Canada</p>
+            <p id="lastModified"></p>
+        </div>
+        <div class="socials">
+            <a href="https://www.instagram.com/kelownalongboardalliance/" target="_blank">
+                <img src="images/instagram-logo.webp" alt="Instagram logo" loading="lazy" width="35">
+            </a>
+            <a href="https://www.facebook.com/groups/143668038991287" target="_blank">
+                <img src="images/facebook-logo.webp" alt="Facebook logo" loading="lazy" width="35">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

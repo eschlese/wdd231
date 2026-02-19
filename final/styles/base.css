@@ -1,0 +1,162 @@
+:root {
+    --primary-colour: #FFC251;
+    --secondary-colour: #FFECCC;
+    --accent-colour: #476f3f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Funnel Display', sans-serif;
+    font-size: 100%;
+}
+
+header,
+main,
+footer {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.title {
+    background-color: var(--primary-colour);
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.title img {
+    width: 100px;
+    height: auto;
+    border-radius: 20px;
+}
+
+#menu {
+    width: 100%;
+    background-color: var(--accent-colour);
+    font-weight: bold;
+    font-size: large;
+    padding: 2px 0 4px;
+    color: white;
+    border: none;
+}
+
+#menu::before {
+    content: '☰';
+}
+
+#menu.open::before {
+    content: '✖';
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    background-color: var(--accent-colour);
+    justify-content: space-around;
+}
+
+.navigation a {
+    display: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.navigation a:hover {
+    color: var(--primary-colour);
+}
+
+.open a {
+    display: block;
+}
+
+.current {
+    border-bottom: 3px solid white;
+}
+
+h2 {
+    border-bottom: 3px solid var(--accent-colour);
+    width: 60%;
+    margin: 1rem;
+}
+
+.hero1 p,
+.hero2 p
+{
+    z-index: 1;
+    background: none;
+    margin: 1rem;
+    background-color: var(--secondary-colour);
+    border-radius: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* ARTICLE */
+
+article {
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: var(--secondary-colour);
+    border: 5px solid var(--accent-colour);
+    border-radius: 20px;
+    text-align: center;
+    max-width: 600px;
+}
+
+article p {
+    margin: 0.5rem;
+}
+
+article a {
+    margin: 0.5rem;
+    margin-top: 1rem;
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: var(--primary-colour);
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+    border: 2px solid var(--accent-colour);
+    width: 40%;
+    justify-self: center;
+}
+
+article a:hover {
+    background-color: var(--secondary-colour);
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--primary-colour);
+    text-align: center;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 0.7em;
+}
+
+.socials img{
+    width: 35px;
+    margin: 0 0.5rem;
+}
+
+.socials a {
+    text-decoration: none;
+}

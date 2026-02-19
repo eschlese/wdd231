@@ -1,0 +1,30 @@
+@media screen and (min-width: 768px) {
+    .contact-group {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+        /* Ensures items start at the top */
+    }
+
+    .contact-group img {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        grid-column: 2;
+        grid-row: 1 / span 2;
+        border-radius: 20px;
+    }
+
+    .contact-group ul {
+        grid-column: 1;
+        grid-row: 1;
+        font-size: 1.2em;
+    }
+
+    .contact-group form {
+        grid-column: 1;
+        grid-row: 2;
+        height: 320px;
+        margin: 0 1rem;
+    }
+}

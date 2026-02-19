@@ -1,0 +1,57 @@
+:root {
+    --primary-colour: #FFC251;
+    --secondary-colour: #FFECCC;
+    --accent-colour: #476f3f;
+}
+
+.events-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.events-header button,
+.grid button 
+{
+    color: red;
+    border: none;
+    background: none;
+    font-weight: bold;
+    font-size: 35px;
+    margin-right: 0.5rem;
+}
+
+.events-header button::before,
+.grid button::before
+{
+    content: '♡';
+}
+
+.events-header button.saved::before,
+.grid button.saved::before
+{
+    content: '♥︎';
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 25px;
+    place-items: center;
+    text-align: center;
+    min-height: 400px;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.grid img {
+    max-width: 250px;
+    height: auto;
+    margin: 1rem;
+}
+
+.grid a {
+    text-decoration: none;
+    color: black;
+}

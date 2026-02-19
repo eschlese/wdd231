@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Kelowna Longboard Alliance</title>
+    <meta name="description"
+        content="This is a contact us page for the Kelowna Longboard Alliance, with various ways to get in contact with us.">
+    <meta name="author" content="Ethan Schlese">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/contact-us.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/contact-us-large.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <img src="images/kla-logo.webp" alt="Kelowna Longboard Alliance logo">
+            <h1>Kelowna Longboard Alliance</h1>
+        </div>
+        <button type="button" id="menu" aria-label="menu button"></button>
+        <nav>
+            <ul class="navigation">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="current" href="#">Contact Us</a>
+                </li>
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Contact Us</h2>
+
+        <div class="contact-group">
+            <ul class="contact-list">
+                <li>Facebook Group: <a href="https://www.facebook.com/groups/143668038991287" target="_blank">The Kelowna Longboard
+                        Alliance</a></li>
+                <li>Instagram: <a
+                        href="https://www.instagram.com/kelownalongboardalliance/" target="_blank">@kelownalongboardalliance</a>
+                </li>
+                <li>Email: e.e.schlese@gmail.com</li>
+            </ul>
+
+            <form method="get" class="wf1" action="form-results.html">
+                <fieldset>
+                    <legend>Send us a Message</legend>
+                    <label>Name<input type="text" name="fname" id="name" required></label>
+                    <label>Email<input type="email" name="email" id="email" placeholder="skater@gmail.com"
+                            required></label>
+                    <label>Your Message<textarea name="message" id="message" placeholder="Enter your message here..."
+                            required></textarea></label>
+                    <input type="submit" value="Send my Message">
+                </fieldset>
+            </form>
+
+            <img src="images/ghf.webp"
+                alt="A longboarder crouches and leans through a right corner, arms in the air for balance.">
+        </div>
+    </main>
+    <footer>
+        <div class="page-info">
+            <p>&copy;<span id="currentYear"></span> | Ethan Schlese | Canada</p>
+            <p id="lastModified"></p>
+        </div>
+        <div class="socials">
+            <a href="https://www.instagram.com/kelownalongboardalliance/" target="_blank">
+                <img src="images/instagram-logo.webp" alt="Instagram logo" loading="lazy" width="35">
+            </a>
+            <a href="https://www.facebook.com/groups/143668038991287" target="_blank">
+                <img src="images/facebook-logo.webp" alt="Facebook logo" loading="lazy" width="35">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
