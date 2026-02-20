@@ -1,6 +1,8 @@
 import { events } from "../data/events.mjs";
-const savedButton = document.querySelector("#saved")
-const grid = document.querySelector(".grid")
+const savedButton = document.querySelector("#saved");
+const grid = document.querySelector(".grid");
+const modal = document.querySelector("#confirmation");
+const closeModal = document.querySelector("#closeModal");
 
 function CreateEventCard(event) {
     let card = document.createElement("section");
@@ -68,6 +70,7 @@ function GetSaveButton(eventName) {
 
         if (saveButton.classList.contains("saved")) {
             savedEvents.push(`${eventName}`);
+            modal.showModal();
         }
         else {
             savedEvents = savedEvents.filter(name => name !== eventName);
@@ -81,6 +84,10 @@ function GetSaveButton(eventName) {
 }
 
 FillGrid(events);
+
+closeModal.addEventListener("click", () => {
+    modal.close();
+})
 
 savedButton.addEventListener("click", () => {
     savedButton.classList.toggle("saved");

@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Events | Kelowna Longboard Alliance</title>
-    <meta name="description"
-        content="This page displays longboard events happening in the Okanagan area and abroad.">
+    <meta name="description" content="This page displays longboard events happening in the Okanagan area and abroad.">
     <meta name="author" content="Ethan Schlese">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,10 +48,15 @@
     </header>
     <main>
         <div class="events-header">
-        <h2>Events</h2>
-        <button type="button" id="saved" aria-label="saved button"></button>
+            <h2>Events</h2>
+            <button type="button" id="saved" aria-label="saved button"></button>
         </div>
         <div class="grid"></div>
+        <dialog id="confirmation">
+            <h2>Success!</h2>
+            <p>This event has been added to your favourites.</p>
+            <button id="closeModal">Close</button>
+        </dialog>
     </main>
     <footer>
         <div class="page-info">
