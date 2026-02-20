@@ -1,8 +1,4 @@
-:root {
-    --primary-colour: #FFC251;
-    --secondary-colour: #FFECCC;
-    --accent-colour: #476f3f;
-}
+
 
 .events-header {
     display: flex;
