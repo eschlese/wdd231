@@ -88,7 +88,7 @@
     border-left: solid 5px var(--accent-colour);
 }
 
-img {
+#contact-us-img {
     width: 100%;
     height: auto;
     margin: 0.5rem 0;
